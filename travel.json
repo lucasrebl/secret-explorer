@@ -223,93 +223,342 @@
         "ville_arrivee": "San Francisco",
         "hotels": [
           {"nom": "Fairmont San Francisco", "etoiles": 5},
-          {"nom": "The Ritz-Carlton", "etoiles": 5}
+          {"nom": "Hotel Nikko San Francisco", "etoiles": 4}
+       
         ],
-        "duree_voyage": "10 jours",
+        "duree_voyage": "9 jours",
         "pays": "États-Unis"
       },
       {
-        "ville_depart": "Bordeaux",
-        "ville_arrivee": "Dubaï",
+        "ville_depart": "Lyon",
+        "ville_arrivee": "Hanoi",
         "hotels": [
-          {"nom": "Burj Al Arab", "etoiles": 5},
-          {"nom": "Armani Hotel Dubai", "etoiles": 5}
+          {"nom": "Sofitel Legend Metropole Hanoi", "etoiles": 5},
+          {"nom": "Hanoi Daewoo Hotel", "etoiles": 4}
         ],
-        "duree_voyage": "7 jours",
-        "pays": "Émirats arabes unis"
-      },
-      {
-        "ville_depart": "Nantes",
-        "ville_arrivee": "Stockholm",
-        "hotels": [
-          {"nom": "Grand Hôtel", "etoiles": 5},
-          {"nom": "Hotel Diplomat", "etoiles": 5},
-          {"nom": "Scandic No. 53", "etoiles": 3}
-        ],
-        "duree_voyage": "5 jours",
-        "pays": "Suède"
+        "duree_voyage": "10 jours",
+        "pays": "Vietnam"
       },
       {
         "ville_depart": "Marseille",
-        "ville_arrivee": "Prague",
+        "ville_arrivee": "Séoul",
         "hotels": [
-          {"nom": "Augustine, a Luxury Collection Hotel", "etoiles": 5},
-          {"nom": "Four Seasons Hotel Prague", "etoiles": 5}
+          {"nom": "The Shilla Seoul", "etoiles": 5},
+          {"nom": "Lotte Hotel Seoul", "etoiles": 5}
         ],
-        "duree_voyage": "6 jours",
-        "pays": "République Tchèque"
-      },
-      {
-        "ville_depart": "Nice",
-        "ville_arrivee": "Mexico City",
-        "hotels": [
-          {"nom": "Four Seasons Hotel Mexico City", "etoiles": 5},
-          {"nom": "The St. Regis Mexico City", "etoiles": 5},
-          {"nom": "NH Collection Mexico City", "etoiles": 4}
-        ],
-        "duree_voyage": "12 jours",
-        "pays": "Mexique"
-      },
-      {
-        "ville_depart": "Lyon",
-        "ville_arrivee": "Amsterdam",
-        "hotels": [
-          {"nom": "Waldorf Astoria Amsterdam", "etoiles": 5},
-          {"nom": "Hotel Okura Amsterdam", "etoiles": 5}
-        ],
-        "duree_voyage": "4 jours",
-        "pays": "Pays-Bas"
+        "duree_voyage": "8 jours",
+        "pays": "Corée du Sud"
       },
       {
         "ville_depart": "Bordeaux",
-        "ville_arrivee": "Cape Town",
+        "ville_arrivee": "Mexico City",
         "hotels": [
-          {"nom": "One&Only Cape Town", "etoiles": 5},
-          {"nom": "Belmond Mount Nelson Hotel", "etoiles": 5}
+          {"nom": "Four Seasons Hotel Mexico City", "etoiles": 5},
+          {"nom": "Gran Hotel Ciudad de Mexico", "etoiles": 4}
         ],
-        "duree_voyage": "14 jours",
-        "pays": "Afrique du Sud"
+        "duree_voyage": "9 jours",
+        "pays": "Mexique"
       },
       {
-        "ville_depart": "Toulouse",
-        "ville_arrivee": "Marrakech",
+        "ville_depart": "Nantes",
+        "ville_arrivee": "Auckland",
         "hotels": [
-          {"nom": "Royal Mansour", "etoiles": 5},
-          {"nom": "La Mamounia", "etoiles": 5}
+          {"nom": "Cordis Auckland", "etoiles": 5},
+          {"nom": "SkyCity Grand Hotel", "etoiles": 5}
+        ],
+        "duree_voyage": "14 jours",
+        "pays": "Nouvelle-Zélande"
+      },
+      {
+        "ville_depart": "Nice",
+        "ville_arrivee": "Stockholm",
+        "hotels": [
+          {"nom": "Grand Hôtel Stockholm", "etoiles": 5},
+          {"nom": "Nobis Hotel", "etoiles": 5}
         ],
         "duree_voyage": "6 jours",
+        "pays": "Suède"
+      },
+      {
+        "ville_depart": "Strasbourg",
+        "ville_arrivee": "Marrakech",
+        "hotels": [
+          {"nom": "Royal Mansour Marrakech", "etoiles": 5},
+          {"nom": "La Mamounia", "etoiles": 5}
+        ],
+        "duree_voyage": "7 jours",
         "pays": "Maroc"
       },
       {
-        "ville_depart": "Paris",
+        "ville_depart": "Lille",
         "ville_arrivee": "Vancouver",
         "hotels": [
           {"nom": "Fairmont Pacific Rim", "etoiles": 5},
-          {"nom": "Rosewood Hotel Georgia", "etoiles": 5}
+          {"nom": "The Westin Bayshore", "etoiles": 4}
         ],
         "duree_voyage": "10 jours",
         "pays": "Canada"
-      }
+      },
+      {
+        "ville_depart": "Toulouse",
+        "ville_arrivee": "Pékin",
+        "hotels": [
+          {"nom": "The Peninsula Beijing", "etoiles": 5},
+          {"nom": "Rosewood Beijing", "etoiles": 5}
+        ],
+        "duree_voyage": "9 jours",
+        "pays": "Chine"
+      },
+      {
+        "ville_depart": "Montpellier",
+        "ville_arrivee": "Dubaï",
+        "hotels": [
+          {"nom": "Burj Al Arab", "etoiles": 5},
+          {"nom": "Jumeirah Al Naseem", "etoiles": 5}
+        ],
+        "duree_voyage": "7 jours",
+        "pays": "Émirats Arabes Unis"
+      },
+      {
+        "ville_depart": "Paris",
+        "ville_arrivee": "Moscou",
+        "hotels": [
+          {"nom": "The Ritz-Carlton Moscow", "etoiles": 5},
+          {"nom": "Hotel Baltschug Kempinski Moscow", "etoiles": 5}
+        ],
+        "duree_voyage": "6 jours",
+        "pays": "Russie"
+      },  
+      {
+        "ville_depart": "New York",
+        "ville_arrivee": "Londres",
+        "hotels": [
+            {"nom": "The Ritz London", "etoiles": 5},
+            {"nom": "The Savoy", "etoiles": 5}
+        ],
+        "duree_voyage": "7 jours",
+        "pays": "Royaume-Uni"
+        },
+        {
+        "ville_depart": "Toronto",
+        "ville_arrivee": "Tokyo",
+        "hotels": [
+            {"nom": "Aman Tokyo", "etoiles": 5},
+            {"nom": "Palace Hotel Tokyo", "etoiles": 5}
+        ],
+        "duree_voyage": "10 jours",
+        "pays": "Japon"
+        },
+        {
+        "ville_depart": "Sydney",
+        "ville_arrivee": "Auckland",
+        "hotels": [
+            {"nom": "The Langham Auckland", "etoiles": 5},
+            {"nom": "Hilton Auckland", "etoiles": 4}
+        ],
+        "duree_voyage": "8 jours",
+        "pays": "Nouvelle-Zélande"
+        },
+        {
+        "ville_depart": "Berlin",
+        "ville_arrivee": "Rome",
+        "hotels": [
+            {"nom": "Hotel de Russie", "etoiles": 5},
+            {"nom": "Grand Hotel Plaza", "etoiles": 4}
+        ],
+        "duree_voyage": "5 jours",
+        "pays": "Italie"
+        },
+        {
+        "ville_depart": "São Paulo",
+        "ville_arrivee": "Buenos Aires",
+        "hotels": [
+            {"nom": "Alvear Palace Hotel", "etoiles": 5},
+            {"nom": "Palacio Duhau", "etoiles": 5}
+        ],
+        "duree_voyage": "6 jours",
+        "pays": "Argentine"
+        },
+        {
+        "ville_depart": "Mexico City",
+        "ville_arrivee": "Madrid",
+        "hotels": [
+            {"nom": "Hotel Ritz Madrid", "etoiles": 5},
+            {"nom": "NH Collection Madrid", "etoiles": 4}
+        ],
+        "duree_voyage": "9 jours",
+        "pays": "Espagne"
+        },
+        {
+        "ville_depart": "Istanbul",
+        "ville_arrivee": "Athènes",
+        "hotels": [
+            {"nom": "Grand Bretagne Hotel", "etoiles": 5},
+            {"nom": "Electra Palace", "etoiles": 4}
+        ],
+        "duree_voyage": "7 jours",
+        "pays": "Grèce"
+        },
+        {
+        "ville_depart": "Copenhague",
+        "ville_arrivee": "Stockholm",
+        "hotels": [
+            {"nom": "Grand Hôtel Stockholm", "etoiles": 5},
+            {"nom": "Hotel Diplomat", "etoiles": 4}
+        ],
+        "duree_voyage": "5 jours",
+        "pays": "Suède"
+        },
+        {
+        "ville_depart": "Dublin",
+        "ville_arrivee": "Amsterdam",
+        "hotels": [
+            {"nom": "Conservatorium Hotel", "etoiles": 5},
+            {"nom": "Pulitzer Amsterdam", "etoiles": 5}
+        ],
+        "duree_voyage": "6 jours",
+        "pays": "Pays-Bas"
+        },
+        {
+        "ville_depart": "Vancouver",
+        "ville_arrivee": "Hong Kong",
+        "hotels": [
+            {"nom": "The Peninsula Hong Kong", "etoiles": 5},
+            {"nom": "Mandarin Oriental", "etoiles": 5}
+        ],
+        "duree_voyage": "12 jours",
+        "pays": "Hong Kong"
+        },
+        {
+        "ville_depart": "Los Angeles",
+        "ville_arrivee": "Bangkok",
+        "hotels": [
+            {"nom": "The Siam Hotel", "etoiles": 5},
+            {"nom": "Mandarin Oriental Bangkok", "etoiles": 5}
+        ],
+        "duree_voyage": "10 jours",
+        "pays": "Thaïlande"
+        },
+        {
+        "ville_depart": "Madrid",
+        "ville_arrivee": "Marrakech",
+        "hotels": [
+            {"nom": "Royal Mansour", "etoiles": 5},
+            {"nom": "La Mamounia", "etoiles": 5}
+        ],
+        "duree_voyage": "7 jours",
+        "pays": "Maroc"
+        },
+        {
+        "ville_depart": "Beijing",
+        "ville_arrivee": "Moscou",
+        "hotels": [
+            {"nom": "Four Seasons Hotel Moscow", "etoiles": 5},
+            {"nom": "Ararat Park Hyatt", "etoiles": 5}
+        ],
+        "duree_voyage": "9 jours",
+        "pays": "Russie"
+        },
+        {
+        "ville_depart": "Tokyo",
+        "ville_arrivee": "Seoul",
+        "hotels": [
+            {"nom": "The Shilla Seoul", "etoiles": 5},
+            {"nom": "Lotte Hotel", "etoiles": 5}
+        ],
+        "duree_voyage": "5 jours",
+        "pays": "Corée du Sud"
+        },
+        {
+        "ville_depart": "Cape Town",
+        "ville_arrivee": "Maurice",
+        "hotels": [
+            {"nom": "Four Seasons Resort Mauritius", "etoiles": 5},
+            {"nom": "Constance Prince Maurice", "etoiles": 5}
+        ],
+        "duree_voyage": "8 jours",
+        "pays": "Île Maurice"
+        },
+        {
+        "ville_depart": "Rio de Janeiro",
+        "ville_arrivee": "Lisbonne",
+        "hotels": [
+            {"nom": "Altis Belem Hotel", "etoiles": 5},
+            {"nom": "Pestana Palace", "etoiles": 5}
+        ],
+        "duree_voyage": "7 jours",
+        "pays": "Portugal"
+        },
+        {
+        "ville_depart": "London",
+        "ville_arrivee": "Paris",
+        "hotels": [
+            {"nom": "Le Meurice", "etoiles": 5},
+            {"nom": "Hotel Plaza Athénée", "etoiles": 5}
+        ],
+        "duree_voyage": "5 jours",
+        "pays": "France"
+        },
+        {
+        "ville_depart": "Mexico City",
+        "ville_arrivee": "Lima",
+        "hotels": [
+            {"nom": "Belmond Hotel Monasterio", "etoiles": 5},
+            {"nom": "JW Marriott Lima", "etoiles": 5}
+        ],
+        "duree_voyage": "8 jours",
+        "pays": "Pérou"
+        },
+        {
+        "ville_depart": "Dubai",
+        "ville_arrivee": "Cairo",
+        "hotels": [
+            {"nom": "Four Seasons Cairo", "etoiles": 5},
+            {"nom": "Kempinski Nile Hotel", "etoiles": 5}
+        ],
+        "duree_voyage": "7 jours",
+        "pays": "Égypte"
+        },
+        {
+        "ville_depart": "San Francisco",
+        "ville_arrivee": "Singapore",
+        "hotels": [
+            {"nom": "Marina Bay Sands", "etoiles": 5},
+            {"nom": "The Fullerton Bay Hotel", "etoiles": 5}
+        ],
+        "duree_voyage": "10 jours",
+        "pays": "Singapour"
+        },
+        {
+        "ville_depart": "Buenos Aires",
+        "ville_arrivee": "Santiago",
+        "hotels": [
+            {"nom": "The Ritz-Carlton Santiago", "etoiles": 5},
+            {"nom": "W Santiago", "etoiles": 5}
+        ],
+        "duree_voyage": "6 jours",
+        "pays": "Chili"
+        },
+        {
+        "ville_depart": "Hong Kong",
+        "ville_arrivee": "Sydney",
+        "hotels": [
+            {"nom": "Park Hyatt Sydney", "etoiles": 5},
+            {"nom": "Shangri-La Sydney", "etoiles": 5}
+        ],
+        "duree_voyage": "10 jours",
+        "pays": "Australie"
+        },
+        {
+        "ville_depart": "Istanbul",
+        "ville_arrivee": "Berlin",
+        "hotels": [
+            {"nom": "Hotel Adlon Kempinski", "etoiles": 5},
+            {"nom": "The Ritz-Carlton Berlin", "etoiles": 5}
+        ],
+        "duree_voyage": "5 jours",
+        "pays": "Allemagne"
+        }      
     ]
   }
-  
+    
