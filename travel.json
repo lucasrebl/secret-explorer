@@ -1,1220 +1,5660 @@
 {
-    "voyages": [
+  "voyages": [
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Sydney",
+      "hotels": [
         {
-            "ville_depart": "Paris",
-            "ville_arrivee": "New York",
-            "hotels": [
-                {
-                    "nom": "Hotel Plaza",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Langham",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "États-Unis"
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 3
         },
         {
-            "ville_depart": "Lyon",
-            "ville_arrivee": "Tokyo",
-            "hotels": [
-                {
-                    "nom": "Park Hyatt Tokyo",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Shibuya Excel Hotel",
-                    "etoiles": 4
-                },
-                {
-                    "nom": "APA Hotel",
-                    "etoiles": 3
-                }
-            ],
-            "duree_voyage": "10 jours",
-            "pays": "Japon"
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 4
         },
         {
-            "ville_depart": "Marseille",
-            "ville_arrivee": "Lisbonne",
-            "hotels": [
-                {
-                    "nom": "Altis Avenida Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Tivoli Oriente",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Portugal"
+          "nom": "Hotel 3 Sydney",
+          "etoiles": 4
         },
         {
-            "ville_depart": "Bordeaux",
-            "ville_arrivee": "Rio de Janeiro",
-            "hotels": [
-                {
-                    "nom": "Hotel Fasano",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Belmond Copacabana Palace",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "12 jours",
-            "pays": "Brésil"
-        },
-        {
-            "ville_depart": "Nantes",
-            "ville_arrivee": "Reykjavik",
-            "hotels": [
-                {
-                    "nom": "Canopy by Hilton",
-                    "etoiles": 4
-                },
-                {
-                    "nom": "Hotel Borg",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Islande"
-        },
-        {
-            "ville_depart": "Nice",
-            "ville_arrivee": "Berlin",
-            "hotels": [
-                {
-                    "nom": "Hotel Adlon Kempinski",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Ritz-Carlton",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "NH Collection Berlin",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "Allemagne"
-        },
-        {
-            "ville_depart": "Strasbourg",
-            "ville_arrivee": "Vienne",
-            "hotels": [
-                {
-                    "nom": "Hotel Sacher",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Ritz-Carlton Vienna",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Motel One Wien",
-                    "etoiles": 3
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Autriche"
-        },
-        {
-            "ville_depart": "Lille",
-            "ville_arrivee": "Rome",
-            "hotels": [
-                {
-                    "nom": "Hotel de Russie",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "NH Collection Roma",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Italie"
-        },
-        {
-            "ville_depart": "Toulouse",
-            "ville_arrivee": "Athènes",
-            "hotels": [
-                {
-                    "nom": "Hotel Grande Bretagne",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Electra Metropolis",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Grèce"
-        },
-        {
-            "ville_depart": "Montpellier",
-            "ville_arrivee": "Bangkok",
-            "hotels": [
-                {
-                    "nom": "Mandarin Oriental",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Shangri-La Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Eastin Hotel",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "9 jours",
-            "pays": "Thaïlande"
-        },
-        {
-            "ville_depart": "Paris",
-            "ville_arrivee": "Sydney",
-            "hotels": [
-                {
-                    "nom": "Shangri-La Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Four Seasons Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Ibis Sydney",
-                    "etoiles": 3
-                }
-            ],
-            "duree_voyage": "14 jours",
-            "pays": "Australie"
-        },
-        {
-            "ville_depart": "Lyon",
-            "ville_arrivee": "Copenhague",
-            "hotels": [
-                {
-                    "nom": "Hotel D'Angleterre",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Nimb Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "Danemark"
-        },
-        {
-            "ville_depart": "Nice",
-            "ville_arrivee": "Dubrovnik",
-            "hotels": [
-                {
-                    "nom": "Hotel Excelsior",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Villa Dubrovnik",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Kompas",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Croatie"
-        },
-        {
-            "ville_depart": "Toulon",
-            "ville_arrivee": "Le Caire",
-            "hotels": [
-                {
-                    "nom": "Marriott Mena House",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Four Seasons Nile Plaza",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "8 jours",
-            "pays": "Égypte"
-        },
-        {
-            "ville_depart": "Rennes",
-            "ville_arrivee": "Helsinki",
-            "hotels": [
-                {
-                    "nom": "Hotel Kämp",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Radisson Blu Plaza Hotel",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Finlande"
-        },
-        {
-            "ville_depart": "Lille",
-            "ville_arrivee": "Barcelone",
-            "hotels": [
-                {
-                    "nom": "W Barcelona",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Arts Barcelona",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Jazz",
-                    "etoiles": 3
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "Espagne"
-        },
-        {
-            "ville_depart": "Brest",
-            "ville_arrivee": "Dublin",
-            "hotels": [
-                {
-                    "nom": "The Westbury",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Shelbourne Dublin",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Irlande"
-        },
-        {
-            "ville_depart": "Paris",
-            "ville_arrivee": "Casablanca",
-            "hotels": [
-                {
-                    "nom": "Four Seasons Hotel Casablanca",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hyatt Regency Casablanca",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Maroc"
-        },
-        {
-            "ville_depart": "Marseille",
-            "ville_arrivee": "Venise",
-            "hotels": [
-                {
-                    "nom": "The Gritti Palace",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Danieli",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Italie"
-        },
-        {
-            "ville_depart": "Lyon",
-            "ville_arrivee": "Istanbul",
-            "hotels": [
-                {
-                    "nom": "Ciragan Palace Kempinski",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Four Seasons Hotel Istanbul",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Marmara Taksim",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Turquie"
-        },
-        {
-            "ville_depart": "Nice",
-            "ville_arrivee": "Montréal",
-            "hotels": [
-                {
-                    "nom": "Fairmont The Queen Elizabeth",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel William Gray",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "8 jours",
-            "pays": "Canada"
-        },
-        {
-            "ville_depart": "Paris",
-            "ville_arrivee": "San Francisco",
-            "hotels": [
-                {
-                    "nom": "Fairmont San Francisco",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Nikko San Francisco",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "9 jours",
-            "pays": "États-Unis"
-        },
-        {
-            "ville_depart": "Lyon",
-            "ville_arrivee": "Hanoi",
-            "hotels": [
-                {
-                    "nom": "Sofitel Legend Metropole Hanoi",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hanoi Daewoo Hotel",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "10 jours",
-            "pays": "Vietnam"
-        },
-        {
-            "ville_depart": "Marseille",
-            "ville_arrivee": "Séoul",
-            "hotels": [
-                {
-                    "nom": "The Shilla Seoul",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Lotte Hotel Seoul",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "8 jours",
-            "pays": "Corée du Sud"
-        },
-        {
-            "ville_depart": "Bordeaux",
-            "ville_arrivee": "Mexico City",
-            "hotels": [
-                {
-                    "nom": "Four Seasons Hotel Mexico City",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Gran Hotel Ciudad de Mexico",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "9 jours",
-            "pays": "Mexique"
-        },
-        {
-            "ville_depart": "Nantes",
-            "ville_arrivee": "Auckland",
-            "hotels": [
-                {
-                    "nom": "Cordis Auckland",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "SkyCity Grand Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "14 jours",
-            "pays": "Nouvelle-Zélande"
-        },
-        {
-            "ville_depart": "Nice",
-            "ville_arrivee": "Stockholm",
-            "hotels": [
-                {
-                    "nom": "Grand Hôtel Stockholm",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Nobis Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Suède"
-        },
-        {
-            "ville_depart": "Strasbourg",
-            "ville_arrivee": "Marrakech",
-            "hotels": [
-                {
-                    "nom": "Royal Mansour Marrakech",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "La Mamounia",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Maroc"
-        },
-        {
-            "ville_depart": "Lille",
-            "ville_arrivee": "Vancouver",
-            "hotels": [
-                {
-                    "nom": "Fairmont Pacific Rim",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Westin Bayshore",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "10 jours",
-            "pays": "Canada"
-        },
-        {
-            "ville_depart": "Toulouse",
-            "ville_arrivee": "Pékin",
-            "hotels": [
-                {
-                    "nom": "The Peninsula Beijing",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Rosewood Beijing",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "9 jours",
-            "pays": "Chine"
-        },
-        {
-            "ville_depart": "Montpellier",
-            "ville_arrivee": "Dubaï",
-            "hotels": [
-                {
-                    "nom": "Burj Al Arab",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Jumeirah Al Naseem",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Émirats Arabes Unis"
-        },
-        {
-            "ville_depart": "Paris",
-            "ville_arrivee": "Moscou",
-            "hotels": [
-                {
-                    "nom": "The Ritz-Carlton Moscow",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Baltschug Kempinski Moscow",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Russie"
-        },
-        {
-            "ville_depart": "New York",
-            "ville_arrivee": "Londres",
-            "hotels": [
-                {
-                    "nom": "The Ritz London",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Savoy",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Royaume-Uni"
-        },
-        {
-            "ville_depart": "Toronto",
-            "ville_arrivee": "Tokyo",
-            "hotels": [
-                {
-                    "nom": "Aman Tokyo",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Palace Hotel Tokyo",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "10 jours",
-            "pays": "Japon"
-        },
-        {
-            "ville_depart": "Sydney",
-            "ville_arrivee": "Auckland",
-            "hotels": [
-                {
-                    "nom": "The Langham Auckland",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hilton Auckland",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "8 jours",
-            "pays": "Nouvelle-Zélande"
-        },
-        {
-            "ville_depart": "Berlin",
-            "ville_arrivee": "Rome",
-            "hotels": [
-                {
-                    "nom": "Hotel de Russie",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Grand Hotel Plaza",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Italie"
-        },
-        {
-            "ville_depart": "São Paulo",
-            "ville_arrivee": "Buenos Aires",
-            "hotels": [
-                {
-                    "nom": "Alvear Palace Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Palacio Duhau",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Argentine"
-        },
-        {
-            "ville_depart": "Mexico City",
-            "ville_arrivee": "Madrid",
-            "hotels": [
-                {
-                    "nom": "Hotel Ritz Madrid",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "NH Collection Madrid",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "9 jours",
-            "pays": "Espagne"
-        },
-        {
-            "ville_depart": "Istanbul",
-            "ville_arrivee": "Athènes",
-            "hotels": [
-                {
-                    "nom": "Grand Bretagne Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Electra Palace",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Grèce"
-        },
-        {
-            "ville_depart": "Copenhague",
-            "ville_arrivee": "Stockholm",
-            "hotels": [
-                {
-                    "nom": "Grand Hôtel Stockholm",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Diplomat",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Suède"
-        },
-        {
-            "ville_depart": "Dublin",
-            "ville_arrivee": "Amsterdam",
-            "hotels": [
-                {
-                    "nom": "Conservatorium Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Pulitzer Amsterdam",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Pays-Bas"
-        },
-        {
-            "ville_depart": "Vancouver",
-            "ville_arrivee": "Hong Kong",
-            "hotels": [
-                {
-                    "nom": "The Peninsula Hong Kong",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Mandarin Oriental",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "12 jours",
-            "pays": "Hong Kong"
-        },
-        {
-            "ville_depart": "Los Angeles",
-            "ville_arrivee": "Bangkok",
-            "hotels": [
-                {
-                    "nom": "The Siam Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Mandarin Oriental Bangkok",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "10 jours",
-            "pays": "Thaïlande"
-        },
-        {
-            "ville_depart": "Madrid",
-            "ville_arrivee": "Marrakech",
-            "hotels": [
-                {
-                    "nom": "Royal Mansour",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "La Mamounia",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Maroc"
-        },
-        {
-            "ville_depart": "Beijing",
-            "ville_arrivee": "Moscou",
-            "hotels": [
-                {
-                    "nom": "Four Seasons Hotel Moscow",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Ararat Park Hyatt",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "9 jours",
-            "pays": "Russie"
-        },
-        {
-            "ville_depart": "Tokyo",
-            "ville_arrivee": "Seoul",
-            "hotels": [
-                {
-                    "nom": "The Shilla Seoul",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Lotte Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Corée du Sud"
-        },
-        {
-            "ville_depart": "Cape Town",
-            "ville_arrivee": "Maurice",
-            "hotels": [
-                {
-                    "nom": "Four Seasons Resort Mauritius",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Constance Prince Maurice",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "8 jours",
-            "pays": "Île Maurice"
-        },
-        {
-            "ville_depart": "Rio de Janeiro",
-            "ville_arrivee": "Lisbonne",
-            "hotels": [
-                {
-                    "nom": "Altis Belem Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Pestana Palace",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Portugal"
-        },
-        {
-            "ville_depart": "London",
-            "ville_arrivee": "Paris",
-            "hotels": [
-                {
-                    "nom": "Le Meurice",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Plaza Athénée",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "France"
-        },
-        {
-            "ville_depart": "Mexico City",
-            "ville_arrivee": "Lima",
-            "hotels": [
-                {
-                    "nom": "Belmond Hotel Monasterio",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "JW Marriott Lima",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "8 jours",
-            "pays": "Pérou"
-        },
-        {
-            "ville_depart": "Dubai",
-            "ville_arrivee": "Cairo",
-            "hotels": [
-                {
-                    "nom": "Four Seasons Cairo",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Kempinski Nile Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Égypte"
-        },
-        {
-            "ville_depart": "San Francisco",
-            "ville_arrivee": "Singapore",
-            "hotels": [
-                {
-                    "nom": "Marina Bay Sands",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Fullerton Bay Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "10 jours",
-            "pays": "Singapour"
-        },
-        {
-            "ville_depart": "Buenos Aires",
-            "ville_arrivee": "Santiago",
-            "hotels": [
-                {
-                    "nom": "The Ritz-Carlton Santiago",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "W Santiago",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Chili"
-        },
-        {
-            "ville_depart": "Hong Kong",
-            "ville_arrivee": "Sydney",
-            "hotels": [
-                {
-                    "nom": "Park Hyatt Sydney",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Shangri-La Sydney",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "10 jours",
-            "pays": "Australie"
-        },
-        {
-            "ville_depart": "Istanbul",
-            "ville_arrivee": "Berlin",
-            "hotels": [
-                {
-                    "nom": "Hotel Adlon Kempinski",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Ritz-Carlton Berlin",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Allemagne"
-        },
-        {
-            "ville_depart": "Bangkok",
-            "ville_arrivee": "Phnom Penh",
-            "hotels": [
-                {
-                    "nom": "Raffles Hotel Le Royal",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Sofitel Phnom Penh Phokeethra",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Cambodge"
-        },
-        {
-            "ville_depart": "Bangkok",
-            "ville_arrivee": "Kuala Lumpur",
-            "hotels": [
-                {
-                    "nom": "Mandarin Oriental Kuala Lumpur",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Shangri-La Hotel Kuala Lumpur",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Malaisie"
-        },
-        {
-            "ville_depart": "Lisbonne",
-            "ville_arrivee": "Madrid",
-            "hotels": [
-                {
-                    "nom": "Hotel Ritz Madrid",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "InterContinental Madrid",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Espagne"
-        },
-        {
-            "ville_depart": "Bruxelles",
-            "ville_arrivee": "Amsterdam",
-            "hotels": [
-                {
-                    "nom": "Hotel Okura Amsterdam",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Conservatorium Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "Pays-Bas"
-        },
-        {
-            "ville_depart": "Toronto",
-            "ville_arrivee": "Chicago",
-            "hotels": [
-                {
-                    "nom": "The Langham Chicago",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Four Seasons Chicago",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "États-Unis"
-        },
-        {
-            "ville_depart": "San Francisco",
-            "ville_arrivee": "Las Vegas",
-            "hotels": [
-                {
-                    "nom": "The Venetian Resort",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Bellagio Hotel and Casino",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "États-Unis"
-        },
-        {
-            "ville_depart": "Londres",
-            "ville_arrivee": "Edimbourg",
-            "hotels": [
-                {
-                    "nom": "Balmoral Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Sheraton Grand Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "3 jours",
-            "pays": "Écosse"
-        },
-        {
-            "ville_depart": "Bangalore",
-            "ville_arrivee": "Mumbai",
-            "hotels": [
-                {
-                    "nom": "Taj Mahal Palace",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The Oberoi Mumbai",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Inde"
-        },
-        {
-            "ville_depart": "Abou Dabi",
-            "ville_arrivee": "Doha",
-            "hotels": [
-                {
-                    "nom": "The St. Regis Doha",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Mandarin Oriental Doha",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "Qatar"
-        },
-        {
-            "ville_depart": "Helsinki",
-            "ville_arrivee": "Tallinn",
-            "hotels": [
-                {
-                    "nom": "Schlössle Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Telegraaf",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "3 jours",
-            "pays": "Estonie"
-        },
-        {
-            "ville_depart": "Oslo",
-            "ville_arrivee": "Copenhague",
-            "hotels": [
-                {
-                    "nom": "Hotel d'Angleterre",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Nimb Hotel",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "Danemark"
-        },
-        {
-            "ville_depart": "Kuala Lumpur",
-            "ville_arrivee": "Bali",
-            "hotels": [
-                {
-                    "nom": "The Mulia Bali",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "St. Regis Bali Resort",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "7 jours",
-            "pays": "Indonésie"
-        },
-        {
-            "ville_depart": "Santiago",
-            "ville_arrivee": "Buenos Aires",
-            "hotels": [
-                {
-                    "nom": "Alvear Palace Hotel",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Palacio Duhau",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Argentine"
-        },
-        {
-            "ville_depart": "Lima",
-            "ville_arrivee": "Quito",
-            "hotels": [
-                {
-                    "nom": "Casa Gangotena",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Plaza Grande",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Équateur"
-        },
-        {
-            "ville_depart": "Montréal",
-            "ville_arrivee": "Toronto",
-            "hotels": [
-                {
-                    "nom": "The Ritz-Carlton Montreal",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Shangri-La Hotel Toronto",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "Canada"
-        },
-        {
-            "ville_depart": "Los Angeles",
-            "ville_arrivee": "San Francisco",
-            "hotels": [
-                {
-                    "nom": "Fairmont Heritage Place",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "The St. Regis San Francisco",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "États-Unis"
-        },
-        {
-            "ville_depart": "Tokyo",
-            "ville_arrivee": "Hokkaido",
-            "hotels": [
-                {
-                    "nom": "The Windsor Hotel Toya Resort & Spa",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Shikotsuko Daiichi Hotel Suizantei",
-                    "etoiles": 4
-                }
-            ],
-            "duree_voyage": "6 jours",
-            "pays": "Japon"
-        },
-        {
-            "ville_depart": "Lima",
-            "ville_arrivee": "Bogota",
-            "hotels": [
-                {
-                    "nom": "Four Seasons Hotel Bogotá",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Hotel Casa Medina",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "5 jours",
-            "pays": "Colombie"
-        },
-        {
-            "ville_depart": "Los Angeles",
-            "ville_arrivee": "Las Vegas",
-            "hotels": [
-                {
-                    "nom": "The Venetian Resort",
-                    "etoiles": 5
-                },
-                {
-                    "nom": "Bellagio Hotel and Casino",
-                    "etoiles": 5
-                }
-            ],
-            "duree_voyage": "4 jours",
-            "pays": "États-Unis"
+          "nom": "Hotel 4 Sydney",
+          "etoiles": 5
         }
-    ]
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Australie",
+      "budget": "4093 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Reykjavik",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Reykjavik",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Reykjavik",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Reykjavik",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Islande",
+      "budget": "2851 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Rio de Janeiro",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rio de Janeiro",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Rio de Janeiro",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Br\u00e9sil",
+      "budget": "1095 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Berlin",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Berlin",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Berlin",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Allemagne",
+      "budget": "6043 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Copenhague",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Copenhague",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Copenhague",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Danemark",
+      "budget": "1344 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Duba\u00ef",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Duba\u00ef",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "3453 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Vienne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Vienne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Vienne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Autriche",
+      "budget": "3085 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Rio de Janeiro",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rio de Janeiro",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Rio de Janeiro",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Br\u00e9sil",
+      "budget": "5512 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Copenhague",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Copenhague",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Danemark",
+      "budget": "2094 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Sydney",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Australie",
+      "budget": "6153 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Vienne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Vienne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Autriche",
+      "budget": "1326 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Sydney",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Australie",
+      "budget": "6918 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Portugal",
+      "budget": "5254 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "4373 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Rome",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Rome",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Rome",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Italie",
+      "budget": "3452 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "4132 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 New York",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 New York",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "3048 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Rome",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Rome",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Rome",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Italie",
+      "budget": "2114 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Ath\u00e8nes",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Ath\u00e8nes",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "1557 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Berlin",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Berlin",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Allemagne",
+      "budget": "2336 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Portugal",
+      "budget": "2779 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Cape Town",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Cape Town",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Cape Town",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Cape Town",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Afrique du Sud",
+      "budget": "5864 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Russie",
+      "budget": "5564 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3826 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Rome",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Italie",
+      "budget": "6020 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Reykjavik",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Reykjavik",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Reykjavik",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Reykjavik",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Reykjavik",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Islande",
+      "budget": "4677 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Vienne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Vienne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Autriche",
+      "budget": "5320 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Cape Town",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Cape Town",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Cape Town",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Cape Town",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Cape Town",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Afrique du Sud",
+      "budget": "5054 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Russie",
+      "budget": "5406 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Allemagne",
+      "budget": "6572 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Berlin",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Allemagne",
+      "budget": "1565 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3865 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "2905 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "3507 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Duba\u00ef",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "4208 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Tokyo",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Japon",
+      "budget": "2682 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Australie",
+      "budget": "5588 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Cape Town",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Cape Town",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Cape Town",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Cape Town",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Cape Town",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Afrique du Sud",
+      "budget": "6167 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "4212 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Vienne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Vienne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Autriche",
+      "budget": "3110 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Italie",
+      "budget": "4700 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Duba\u00ef",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "5830 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "5036 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Danemark",
+      "budget": "1162 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Allemagne",
+      "budget": "3525 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Russie",
+      "budget": "1338 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Berlin",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Berlin",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Allemagne",
+      "budget": "4518 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Portugal",
+      "budget": "5697 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Portugal",
+      "budget": "4107 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Vienne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Vienne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Vienne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Autriche",
+      "budget": "5233 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Italie",
+      "budget": "3736 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Duba\u00ef",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Duba\u00ef",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Duba\u00ef",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "6719 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Tokyo",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Tokyo",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Japon",
+      "budget": "2141 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Ath\u00e8nes",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "4027 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Danemark",
+      "budget": "4035 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Italie",
+      "budget": "6387 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Cape Town",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Cape Town",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Afrique du Sud",
+      "budget": "1859 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Rio de Janeiro",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rio de Janeiro",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Rio de Janeiro",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Br\u00e9sil",
+      "budget": "3153 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Duba\u00ef",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "3991 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Reykjavik",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Reykjavik",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Islande",
+      "budget": "3339 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Duba\u00ef",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "1401 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Russie",
+      "budget": "6200 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Australie",
+      "budget": "1050 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Rio de Janeiro",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rio de Janeiro",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Rio de Janeiro",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Rio de Janeiro",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Br\u00e9sil",
+      "budget": "6250 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Sydney",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Sydney",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Australie",
+      "budget": "3925 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Allemagne",
+      "budget": "4540 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Sydney",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Sydney",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Australie",
+      "budget": "1745 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Italie",
+      "budget": "5237 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Russie",
+      "budget": "2810 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Reykjavik",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Reykjavik",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Reykjavik",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Reykjavik",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Islande",
+      "budget": "1902 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Reykjavik",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Reykjavik",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Reykjavik",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Islande",
+      "budget": "3387 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Cape Town",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Cape Town",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Afrique du Sud",
+      "budget": "5280 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Cape Town",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Cape Town",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Cape Town",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Cape Town",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Afrique du Sud",
+      "budget": "5890 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Russie",
+      "budget": "2970 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "2799 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Reykjavik",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Reykjavik",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Reykjavik",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Islande",
+      "budget": "4825 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Vienne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Autriche",
+      "budget": "2280 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Duba\u00ef",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Duba\u00ef",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "2110 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 New York",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 New York",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 New York",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "6613 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Reykjavik",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Reykjavik",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Islande",
+      "budget": "4161 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Japon",
+      "budget": "3701 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Danemark",
+      "budget": "2817 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "5895 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Rio de Janeiro",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rio de Janeiro",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Br\u00e9sil",
+      "budget": "1106 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Rio de Janeiro",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rio de Janeiro",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Rio de Janeiro",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Rio de Janeiro",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Br\u00e9sil",
+      "budget": "4752 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Portugal",
+      "budget": "4995 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Portugal",
+      "budget": "4088 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "1936 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Japon",
+      "budget": "1347 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Autriche",
+      "budget": "1219 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Cape Town",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Cape Town",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Cape Town",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Cape Town",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Cape Town",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Afrique du Sud",
+      "budget": "2966 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Ath\u00e8nes",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Ath\u00e8nes",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "2363 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Sydney",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Sydney",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Australie",
+      "budget": "2763 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Berlin",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Allemagne",
+      "budget": "5714 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Portugal",
+      "budget": "1574 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Portugal",
+      "budget": "5333 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "5273 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Moscou",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Russie",
+      "budget": "1652 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Russie",
+      "budget": "6251 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Australie",
+      "budget": "2293 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Portugal",
+      "budget": "4057 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Rome",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Rome",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Italie",
+      "budget": "2763 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Australie",
+      "budget": "3953 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Rome",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Italie",
+      "budget": "1910 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Berlin",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Berlin",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Berlin",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Allemagne",
+      "budget": "4934 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Sydney",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Sydney",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Australie",
+      "budget": "5170 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Duba\u00ef",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Duba\u00ef",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Duba\u00ef",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "\u00c9mirats Arabes Unis",
+      "budget": "3047 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Rio de Janeiro",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rio de Janeiro",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Br\u00e9sil",
+      "budget": "1013 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Cape Town",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Cape Town",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Afrique du Sud",
+      "budget": "3583 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Autriche",
+      "budget": "2284 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 New York",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 New York",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "3572 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Danemark",
+      "budget": "2748 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "4033 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "3970 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Copenhague",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Copenhague",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Copenhague",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Danemark",
+      "budget": "6592 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "6454 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Japon",
+      "budget": "5271 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Copenhague",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Copenhague",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Copenhague",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Danemark",
+      "budget": "2209 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Tokyo",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Tokyo",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Japon",
+      "budget": "5106 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Tokyo",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Tokyo",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Tokyo",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Japon",
+      "budget": "3398 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Italie",
+      "budget": "2668 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "5703 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Berlin",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Allemagne",
+      "budget": "3070 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3442 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "2795 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 New York",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 New York",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 New York",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "6578 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Berlin",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Berlin",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Allemagne",
+      "budget": "4662 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Rio de Janeiro",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rio de Janeiro",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Rio de Janeiro",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Rio de Janeiro",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Rio de Janeiro",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Br\u00e9sil",
+      "budget": "2499 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "1860 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Tokyo",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Japon",
+      "budget": "1012 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Portugal",
+      "budget": "5507 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Portugal",
+      "budget": "5090 EUR"
+    },
+    {
+      "ville_depart": "Lyon",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Copenhague",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Copenhague",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Danemark",
+      "budget": "3421 EUR"
+    },
+    {
+      "ville_depart": "Nice",
+      "ville_arrivee": "Vienne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Vienne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Vienne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Vienne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Vienne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Autriche",
+      "budget": "5333 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Sydney",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Sydney",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Australie",
+      "budget": "5312 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3325 EUR"
+    },
+    {
+      "ville_depart": "Nantes",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "5580 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Italie",
+      "budget": "2419 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Rome",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Rome",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Italie",
+      "budget": "2846 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 New York",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 New York",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 New York",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "6110 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Portugal",
+      "budget": "3550 EUR"
+    },
+    {
+      "ville_depart": "Marseille",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Copenhague",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Copenhague",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Danemark",
+      "budget": "3551 EUR"
+    },
+    {
+      "ville_depart": "Paris",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "6553 EUR"
+    },
+    {
+      "ville_depart": "Strasbourg",
+      "ville_arrivee": "Copenhague",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Copenhague",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Copenhague",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Danemark",
+      "budget": "3690 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Tokyo",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Tokyo",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Tokyo",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Tokyo",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Tokyo",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Japon",
+      "budget": "1391 EUR"
+    },
+    {
+      "ville_depart": "Montpellier",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Russie",
+      "budget": "1148 EUR"
+    },
+    {
+      "ville_depart": "Toulouse",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "1566 EUR"
+    },
+    {
+      "ville_depart": "Bordeaux",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 New York",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "4535 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Moscou",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Russie",
+      "budget": "3029 EUR"
+    },
+    {
+      "ville_depart": "Lille",
+      "ville_arrivee": "New York",
+      "hotels": [
+        {
+          "nom": "Hotel 1 New York",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 New York",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 New York",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "\u00c9tats-Unis",
+      "budget": "1594 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Auckland",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Auckland",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Auckland",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Auckland",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Nouvelle-Z\u00e9lande",
+      "budget": "6896 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Stockholm",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Stockholm",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Stockholm",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Su\u00e8de",
+      "budget": "1393 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "1514 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Marrakech",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Maroc",
+      "budget": "4248 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Maroc",
+      "budget": "3023 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Stockholm",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Stockholm",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Stockholm",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Stockholm",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Su\u00e8de",
+      "budget": "1400 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Royaume-Uni",
+      "budget": "5870 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Madrid",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Espagne",
+      "budget": "2162 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3824 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Madrid",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Espagne",
+      "budget": "2147 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Buenos Aires",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Buenos Aires",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Argentine",
+      "budget": "6375 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Espagne",
+      "budget": "5129 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Portugal",
+      "budget": "3315 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Hong Kong",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Hong Kong",
+      "budget": "1853 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Buenos Aires",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Buenos Aires",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Buenos Aires",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Buenos Aires",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Argentine",
+      "budget": "6318 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Auckland",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Auckland",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Auckland",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Auckland",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Nouvelle-Z\u00e9lande",
+      "budget": "1928 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Russie",
+      "budget": "4552 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "4725 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Espagne",
+      "budget": "1632 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Seoul",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "5654 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Royaume-Uni",
+      "budget": "6568 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Hong Kong",
+      "budget": "5077 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "1847 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Amsterdam",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Amsterdam",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Amsterdam",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Amsterdam",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Pays-Bas",
+      "budget": "5302 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Russie",
+      "budget": "3773 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Buenos Aires",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Buenos Aires",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Buenos Aires",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Buenos Aires",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Argentine",
+      "budget": "2942 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Portugal",
+      "budget": "1573 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Seoul",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Seoul",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Seoul",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "2648 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Paris",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Paris",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Paris",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Paris",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Paris",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "France",
+      "budget": "5575 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Ath\u00e8nes",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "5747 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Londres",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Londres",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Royaume-Uni",
+      "budget": "4774 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Hong Kong",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Hong Kong",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Hong Kong",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Hong Kong",
+      "budget": "4726 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Madrid",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Espagne",
+      "budget": "3212 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "5494 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Ath\u00e8nes",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "4814 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Maurice",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "4481 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Buenos Aires",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Buenos Aires",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Buenos Aires",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Buenos Aires",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Buenos Aires",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Argentine",
+      "budget": "1473 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Maurice",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Maurice",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "2869 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Maurice",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "6872 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "4010 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "4596 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Maroc",
+      "budget": "3323 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Russie",
+      "budget": "6043 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Londres",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Londres",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Londres",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Royaume-Uni",
+      "budget": "6058 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Londres",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Royaume-Uni",
+      "budget": "2417 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "5542 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Buenos Aires",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Buenos Aires",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Argentine",
+      "budget": "2591 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Maurice",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "1577 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Londres",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Royaume-Uni",
+      "budget": "6851 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Maurice",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "3680 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Portugal",
+      "budget": "4515 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Portugal",
+      "budget": "1839 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3684 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Paris",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Paris",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Paris",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Paris",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Paris",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "France",
+      "budget": "6868 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Marrakech",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Maroc",
+      "budget": "3878 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Portugal",
+      "budget": "2499 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Portugal",
+      "budget": "1813 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Marrakech",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Maroc",
+      "budget": "3545 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Madrid",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Madrid",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Espagne",
+      "budget": "5324 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "4738 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Maroc",
+      "budget": "1967 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Londres",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Londres",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Royaume-Uni",
+      "budget": "1073 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "2285 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Royaume-Uni",
+      "budget": "4603 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Madrid",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Espagne",
+      "budget": "6332 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "6619 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Marrakech",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Marrakech",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Maroc",
+      "budget": "3254 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Stockholm",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Stockholm",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Stockholm",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Stockholm",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Stockholm",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Su\u00e8de",
+      "budget": "2285 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Portugal",
+      "budget": "5318 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Stockholm",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Stockholm",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Stockholm",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Stockholm",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Su\u00e8de",
+      "budget": "6494 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Hong Kong",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Hong Kong",
+      "budget": "3532 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Amsterdam",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Amsterdam",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Amsterdam",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Pays-Bas",
+      "budget": "5692 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Madrid",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Espagne",
+      "budget": "3251 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Auckland",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Auckland",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Auckland",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Auckland",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Nouvelle-Z\u00e9lande",
+      "budget": "5427 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Portugal",
+      "budget": "5255 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3764 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Marrakech",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Marrakech",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Maroc",
+      "budget": "6621 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Russie",
+      "budget": "1309 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Auckland",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Auckland",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Nouvelle-Z\u00e9lande",
+      "budget": "1341 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Londres",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Londres",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Royaume-Uni",
+      "budget": "5377 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "2268 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Buenos Aires",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Buenos Aires",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Buenos Aires",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Argentine",
+      "budget": "1113 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Russie",
+      "budget": "2417 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Amsterdam",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Amsterdam",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Amsterdam",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Pays-Bas",
+      "budget": "2674 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Amsterdam",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Amsterdam",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Amsterdam",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Pays-Bas",
+      "budget": "6568 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Russie",
+      "budget": "5195 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Seoul",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "1357 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Portugal",
+      "budget": "6455 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Paris",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Paris",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Paris",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "France",
+      "budget": "3515 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Moscou",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Russie",
+      "budget": "2576 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Hong Kong",
+      "budget": "4519 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Portugal",
+      "budget": "3468 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Espagne",
+      "budget": "6212 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "2692 EUR"
+    },
+    {
+      "ville_depart": "Tokyo",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Seoul",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Seoul",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Seoul",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "1579 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3265 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Londres",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Royaume-Uni",
+      "budget": "3863 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Paris",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Paris",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Paris",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Paris",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Paris",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "France",
+      "budget": "5885 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Seoul",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Seoul",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Seoul",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "13 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "4326 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Paris",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Paris",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Paris",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Paris",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Paris",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "France",
+      "budget": "2202 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Buenos Aires",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Buenos Aires",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Buenos Aires",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Buenos Aires",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Argentine",
+      "budget": "2135 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Russie",
+      "budget": "1121 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Royaume-Uni",
+      "budget": "3399 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Espagne",
+      "budget": "6877 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Hong Kong",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Hong Kong",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Hong Kong",
+      "budget": "4228 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "4586 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Seoul",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "4631 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Espagne",
+      "budget": "1828 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "6729 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Maurice",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Maurice",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "6643 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Paris",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Paris",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Paris",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Paris",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "France",
+      "budget": "3419 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "6535 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Hong Kong",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Hong Kong",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Hong Kong",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Hong Kong",
+      "budget": "2625 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Hong Kong",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "Hong Kong",
+      "budget": "1331 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "4438 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Seoul",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Seoul",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 4 Seoul",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "5175 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Moscou",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Russie",
+      "budget": "2555 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Marrakech",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Marrakech",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Maroc",
+      "budget": "3589 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Maurice",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "5354 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Seoul",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "4293 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Ath\u00e8nes",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "1936 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Espagne",
+      "budget": "2367 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Londres",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Royaume-Uni",
+      "budget": "4190 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Auckland",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Auckland",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Nouvelle-Z\u00e9lande",
+      "budget": "4607 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Stockholm",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Stockholm",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Stockholm",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Su\u00e8de",
+      "budget": "6871 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Seoul",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Seoul",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "Cor\u00e9e du Sud",
+      "budget": "1805 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Maurice",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 3 Maurice",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "6973 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Royaume-Uni",
+      "budget": "2948 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "5 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "1331 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Amsterdam",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Amsterdam",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Amsterdam",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Pays-Bas",
+      "budget": "5653 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Marrakech",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Marrakech",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Marrakech",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Maroc",
+      "budget": "3360 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Royaume-Uni",
+      "budget": "2365 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Londres",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Londres",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "6 jours",
+      "pays": "Royaume-Uni",
+      "budget": "2616 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "2621 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "4 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "2184 EUR"
+    },
+    {
+      "ville_depart": "Vancouver",
+      "ville_arrivee": "Paris",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Paris",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Paris",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Paris",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Paris",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "France",
+      "budget": "4576 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "12 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "5618 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Amsterdam",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Amsterdam",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Pays-Bas",
+      "budget": "2835 EUR"
+    },
+    {
+      "ville_depart": "New York",
+      "ville_arrivee": "Lisbonne",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Lisbonne",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Lisbonne",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Lisbonne",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "8 jours",
+      "pays": "Portugal",
+      "budget": "4755 EUR"
+    },
+    {
+      "ville_depart": "Istanbul",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Hong Kong",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Hong Kong",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Hong Kong",
+      "budget": "6665 EUR"
+    },
+    {
+      "ville_depart": "Mexico City",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Bangkok",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "3164 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Marrakech",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Marrakech",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Marrakech",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Marrakech",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Maroc",
+      "budget": "4628 EUR"
+    },
+    {
+      "ville_depart": "Berlin",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Ath\u00e8nes",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "1686 EUR"
+    },
+    {
+      "ville_depart": "Copenhague",
+      "ville_arrivee": "Amsterdam",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Amsterdam",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Amsterdam",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Amsterdam",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Amsterdam",
+          "etoiles": 5
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Pays-Bas",
+      "budget": "3724 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Hong Kong",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Hong Kong",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 2 Hong Kong",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "14 jours",
+      "pays": "Hong Kong",
+      "budget": "6684 EUR"
+    },
+    {
+      "ville_depart": "Dublin",
+      "ville_arrivee": "Moscou",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Moscou",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Moscou",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 3 Moscou",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 4 Moscou",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "11 jours",
+      "pays": "Russie",
+      "budget": "1675 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Madrid",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Madrid",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 2 Madrid",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Madrid",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "10 jours",
+      "pays": "Espagne",
+      "budget": "3873 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Maurice",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Maurice",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "9 jours",
+      "pays": "\u00cele Maurice",
+      "budget": "1438 EUR"
+    },
+    {
+      "ville_depart": "Sydney",
+      "ville_arrivee": "Bangkok",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Bangkok",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Bangkok",
+          "etoiles": 3
+        }
+      ],
+      "duree_voyage": "7 jours",
+      "pays": "Tha\u00eflande",
+      "budget": "6378 EUR"
+    },
+    {
+      "ville_depart": "Sao Paulo",
+      "ville_arrivee": "Ath\u00e8nes",
+      "hotels": [
+        {
+          "nom": "Hotel 1 Ath\u00e8nes",
+          "etoiles": 4
+        },
+        {
+          "nom": "Hotel 2 Ath\u00e8nes",
+          "etoiles": 5
+        },
+        {
+          "nom": "Hotel 3 Ath\u00e8nes",
+          "etoiles": 3
+        },
+        {
+          "nom": "Hotel 4 Ath\u00e8nes",
+          "etoiles": 4
+        }
+      ],
+      "duree_voyage": "15 jours",
+      "pays": "Gr\u00e8ce",
+      "budget": "3403 EUR"
+    }
+  ]
 }
