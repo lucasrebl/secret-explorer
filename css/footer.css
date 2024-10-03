@@ -14,11 +14,13 @@ footer {
 footer p {
     color: white;
     font-family: 'Yeseva One' sans-serif;
-    font-size: 1.5em;
+    font-size: 16px;
+    padding-top: 15px;
 }
 
 footer .logo {
     margin-top: 0.4%;
     width: 15%;
     height: 15%;
+    margin-left: 100px;
 }
