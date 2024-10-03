@@ -16,7 +16,8 @@ header {
 header p {
     color: #FB8028;
     font-family: 'Yeseva One' sans-serif;
-    font-size: 1.5em;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 header .logo {
