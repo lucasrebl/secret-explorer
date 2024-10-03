@@ -1,0 +1,146 @@
+body {
+    font-family: 'Yeseva One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flight-container {
+    background-color: #FB80284F;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    color: #2c2c2c;
+    margin-left: 12%;
+}
+
+.flight-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Pour que les sections passent en ligne si l'écran est petit */
+}
+
+.flight-title {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.flight-section {
+    width: 45%;
+    margin-bottom: 20px;
+    /* Espace entre les sections quand elles passent à la ligne */
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+
+.flight-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.departure,
+.arrival {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+.plane {
+    font-size: 14px;
+    color: #8c8c8c;
+    text-align: center;
+}
+
+.divider {
+    width: 1px;
+    background-color: #000000;
+}
+
+.price p {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+button {
+    background-color: #FB80284F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #2c2c2c;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #ffb366;
+}
+
+.plane-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive Design */
+
+/* Pour les écrans de tablettes (768px ou moins) */
+@media (max-width: 768px) {
+    .flight-title {
+        text-align: center;
+    }
+
+    .flight-section {
+        width: 800%;
+        /* Les sections prennent toute la largeur */
+    }
+
+    h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Pour les petits écrans (600px ou moins) */
+@media (max-width: 600px) {
+
+    .flight-title {
+        text-align: center;
+    }
+
+    .flight-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .flight-details {
+        flex-direction: column;
+        /* Les détails de vol sont empilés verticalement */
+    }
+
+    .departure,
+    .arrival {
+        font-size: 16px;
+    }
+
+    .plane {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
