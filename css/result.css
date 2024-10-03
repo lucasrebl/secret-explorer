@@ -179,8 +179,8 @@ img {
         text-align: center;
     }
 
-    .flight-container {
-        width: 100%;
+    .flight-container, .hotel-container {
+        width: 75%;
         padding: 20px;
     }
 
