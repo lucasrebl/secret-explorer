@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    background-color: #FFF6D6;
+    font-family: 'Yeseva One', sans-serif;
+}
+
+#RechercheTitre {
+    margin-left: 12.5%
+}
+
+.Recherche {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.SectDate {
+    display: flex; 
+    flex-direction: row;
+    
+    border-right: solid 2px ;
+    padding-right: 5%;
+}
+
+.test {
+    text-align: center;
+    margin:auto;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    padding-top: 20px;
+}
+
+.Calendrier {
+    background-color: #FB80284F;
+    padding: 5px;
+    padding-top:2px;
+    border-radius: 10px;
+    min-width: 250px; 
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.Calendrier input{ 
+    margin: auto;
+}
+
+
+.Regroup {
+    display:flex;   
+
+    margin:5px;
+}
+
+.Regroup input {
+    height: 20px;
+    margin: auto;
+    margin-left: 0; 
+    margin-right: 10px; 
+}
+
+
+.ParametreRecherche {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: -webkit-fill-available;
+}
+
+/* Pour le cadrer vers la gauche */
+.ParametreRecherche div:first-child input {
+    margin-right: 100%
+}
+
+.ParametreRecherche input {
+    border: none;
+    border-radius: 5px; 
+    padding:  5px;
+    background-color: #FB80284F; 
+}
+
+.BoutonVoyageur {
+    display: flex;  
+    background-color: #FB80284F;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 30px;    
+    margin-left: 20px; 
+}
+
+.BoutonVoyageur p {
+    margin: 0px;
+    text-align: center;
+}
+
+.BoutonVoyageur button {
+    border: none;
+    background-color: #ffffff00;
+}
+
+#RECHERCHER {
+
+    background-color: #FB80284F;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:5px;
+    margin-top: 20px;
+    margin-left: auto;
+    width: 140px
+}
+
+#HistoriqueTitre {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.Historique {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.Historique img {
+    width: 80px; 
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.blocHistorique {
+    width: 25%; 
+    background-color: #FB802899;
+    padding: 30px; 
+    padding-left: 2.5%; 
+    padding-right: 2.5%; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.blocHistorique p {
+    margin: 5px; 
+}
+
+
+.blocHistoriqueTitre {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.blocHistoriqueTitre h3 {
+    margin: 0; 
+}
+.blocHistoriqueTitre p {
+    margin: 0;
+    color:  #0000006B;
+}
+
+.blocHistorique button {
+    border-radius: 10px;
+    border: none;
+    background: #FB802899;
+    padding: 8px;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 120px;
+    font-size: 18px;
+}

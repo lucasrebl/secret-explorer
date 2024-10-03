@@ -1,0 +1,218 @@
+body {
+    font-family: 'Yeseva One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flight-container, .hotel-container {
+    background-color: #FB80284F;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.flight-container {
+    margin-bottom: 100px;
+}
+
+.hotel-container {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #2c2c2c;
+    margin-left: 12%;
+    margin-top: 50px;
+}
+
+.flight-info,
+.hotel-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flight-title {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.hotel-title {
+    padding-bottom: 10px;
+    margin-right: 530px;
+}
+
+.flight-section {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+
+.flight-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.departure,
+.arrival {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+.plane {
+    font-size: 14px;
+    color: #8c8c8c;
+    text-align: center;
+}
+
+.divider {
+    width: 1px;
+    background-color: #000000;
+}
+
+.price p {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+button {
+    background-color: #FB80284F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #2c2c2c;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #ffb366;
+}
+
+.hotel-button {
+    margin-right: 520px;
+    margin-top: 20px;
+}
+
+.plane-icon {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+    margin-top: -50px;
+}
+
+.hotel-section {
+    padding-top: 20px;
+}
+
+.hotel-section ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+}
+
+/* Pour les écrans de tablettes (768px ou moins) */
+@media (max-width: 768px) {
+    .flight-title {
+        text-align: center;
+    }
+
+    .flight-section {
+        width: 800%;
+    }
+
+    h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .hotel-info {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .hotel-section {
+        width: 90%; 
+        margin: 10px 0; 
+    }
+
+    ul {
+        margin-left: 180px;
+    }
+
+    .hotel-title {
+        margin-right: 0; 
+    }
+
+    .hotel-button {
+        margin-right: 0; 
+        margin-top: 20px;
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+/* Pour les petits écrans (600px ou moins) */
+@media (max-width: 600px) {
+
+    .flight-title {
+        text-align: center;
+    }
+
+    .flight-container, .hotel-container {
+        width: 75%;
+        padding: 20px;
+    }
+
+    .flight-details {
+        flex-direction: column;
+    }
+
+    .departure,
+    .arrival {
+        font-size: 16px;
+    }
+
+    .plane {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    ul {
+        margin-left: 50px;
+    }
+
+    .hotel-title {
+        text-align: center;
+        margin: 0;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
