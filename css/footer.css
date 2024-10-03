@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+footer {
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #006E9A;
+    display: flex;
+    justify-content: space-between;
+    p {
+        color: white;
+        font-family: 'Yeseva One' sans-serif;
+        font-size: 1.5em;
+    }
+    .logo {
+        width: 15%;
+        height: 15%;
+    }
+}
