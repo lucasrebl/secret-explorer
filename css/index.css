@@ -115,3 +115,65 @@ body {
     margin-left: auto;
     width: 140px
 }
+
+#HistoriqueTitre {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.Historique {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Historique img {
+    width: 80px; 
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.blocHistorique {
+    width: 25%; 
+    background-color: #FB802899;
+    padding: 30px; 
+    padding-left: 2.5%; 
+    padding-right: 2.5%; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.blocHistorique p {
+    margin: 5px; 
+}
+
+
+.blocHistoriqueTitre {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.blocHistoriqueTitre h3 {
+    margin: 0; 
+}
+.blocHistoriqueTitre p {
+    margin: 0;
+    color:  #0000006B;
+}
+
+.blocHistorique button {
+    border-radius: 10px;
+    border: none;
+    background: #FB802899;
+    padding: 8px;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 120px;
+    font-size: 18px;
+}
