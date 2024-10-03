@@ -1,8 +1,7 @@
-/* Body à supprimer Après intégration d'autre ficher CSS*/
 body {
     margin: 0;
     background-color: #FFF6D6;
-    font-family: 'Yeseva One' sans-serif;
+    font-family: 'Yeseva One', sans-serif;
 }
 
 #RechercheTitre {
