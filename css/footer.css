@@ -8,14 +8,17 @@ footer {
     background-color: #006E9A;
     display: flex;
     justify-content: space-between;
-    p {
-        color: white;
-        font-family: 'Yeseva One' sans-serif;
-        font-size: 1.5em;
-    }
-    .logo {
-        margin-top:0.4%;
-        width: 15%;
-        height: 15%;
-    }
+
+}
+
+footer p {
+    color: white;
+    font-family: 'Yeseva One' sans-serif;
+    font-size: 1.5em;
+}
+
+footer .logo {
+    margin-top: 0.4%;
+    width: 15%;
+    height: 15%;
 }
