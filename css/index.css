@@ -5,7 +5,8 @@ body {
 }
 
 #RechercheTitre {
-    margin-left: 12.5%
+    margin-left: 4.5%;
+    margin-top: 3%;
 }
 
 .Recherche {
@@ -21,8 +22,12 @@ body {
     display: flex; 
     flex-direction: row;
     
+}
+
+.barre {
     border-right: solid 2px ;
-    padding-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .test {
@@ -38,8 +43,8 @@ body {
     padding: 5px;
     padding-top:2px;
     border-radius: 10px;
-    min-width: 250px; 
-    min-height: 200px;
+    min-width: 350px; 
+    min-height: 300px;
     display: flex;
     justify-content: center;
 }
@@ -69,6 +74,7 @@ body {
     flex-direction: column;
     text-align: left;
     width: -webkit-fill-available;
+    /* margin-left: 165px; */
 }
 
 /* Pour le cadrer vers la gauche */
@@ -117,7 +123,7 @@ body {
 
 #HistoriqueTitre {
     margin-top: 50px;
-    margin-left: 10%;
+    margin-left: 4.5%;
 }
 
 .Historique {
@@ -135,7 +141,7 @@ body {
 }
 
 .blocHistorique {
-    width: 25%; 
+    width: 20%; 
     background-color: #FB802899;
     padding: 30px; 
     padding-left: 2.5%; 
@@ -143,8 +149,8 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-right:20px;
-    margin-left:20px;
+    margin-right:60px;
+    margin-left:60px;
 }
 
 .blocHistorique p {
@@ -176,4 +182,8 @@ body {
     margin-top: 20px;
     width: 120px;
     font-size: 18px;
+}
+
+.blocHistorique a {
+    margin-left: 200px;
 }
