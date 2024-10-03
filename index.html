@@ -1,93 +1,117 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/index.css">
-        <link href='https://fonts.googleapis.com/css?family=Yeseva One' rel='stylesheet'>
-    </head>
-    <body>
-        <!-- PARTIE Recherche -->
-        <h2 id="RechercheTitre">VOTRE RECHERCHE</h2>
-        <div class="Recherche">
-            <div class ="SectDate">
-                <div class="Date">
-                    <p>Date d'arrivé</p> 
-                    <div class="Calendrier">
-                        <!-- Intégrer un vrai calendrier interractif ici (Prends du temps donc je passe) -->
-                        <input type="date" value="2024-10-22"/>
-                    </div>
-                </div>
-                <p class="test">_______</p>
-                <div class="Date">
-                    <p>Date de départ</p>
-                    <div class="Calendrier">
-                        <!-- Intégrer un vrai calendrier interractif ici (Prends du temps donc je passe) -->
-                        <input type="date" value="2024-10-22"  />
-                    </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Yeseva One' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>Secret explorer</title>
+    <link rel="icon" type="image/png" href="/images/logo.png">
+</head>
+
+<header>
+    <p>explore the unknown</p>
+    <img src="../images/logo_rogne.png" class="logo">
+    <p>embrace the universe</p>
+</header>
+
+<body>
+    <!-- PARTIE Recherche -->
+    <h2 id="RechercheTitre">VOTRE RECHERCHE</h2>
+    <div class="Recherche">
+        <div class="SectDate">
+            <div class="Date">
+                <p>Date d'arrivé</p>
+                <div class="Calendrier">
+                    <!-- Intégrer un vrai calendrier interractif ici (Prends du temps donc je passe) -->
+                    <input type="date" value="2024-10-22" />
                 </div>
             </div>
-            <div class ="ParametreRecherche"> 
-                    <div>
-                        <p>Ville de départ :</p>
-                        <input type="text" placeholder="Lyon, paris ...">
-                    </div>
-                    <div class="Regroup">
-                        <P>Voyageurs</P>
-                        <div class="BoutonVoyageur">
-                            <button>^</button>
-                            <P>1</P>
-                            <button>v</button>
-                        </div>
-                    </div>
-                    <div>
-                        <P>Budget par personne</P>
-                        <div class="Regroup">
-                            <input type="number" placeholder="0"><p>€</p>
-                        </div>
-                    </div>
-                    <button id="RECHERCHER">RECHERCHER</button> 
+            <p class="test">_______</p>
+            <div class="Date">
+                <p>Date de départ</p>
+                <div class="Calendrier">
+                    <!-- Intégrer un vrai calendrier interractif ici (Prends du temps donc je passe) -->
+                    <input type="date" value="2024-10-22" />
+                </div>
             </div>
         </div>
-        <!-- PARTIE Historique -->
-        <H2 id="HistoriqueTitre">ANCIENNES RECHERCHES</H2>
-        <div class="Historique">
-            <img src="images/ChevronCompactLeft.png">
-            <div class="blocHistorique">
-                <div class= "blocHistoriqueTitre">
-                    <H3>TORONTO</H3>
-                    <p>17 Janvier - 25 Janvier</p>
-                </div>
-                <p>Ville de départ : Paris</p>
-                <p>Voyageur : 3</p>
-                <p>Activités : non</p>
-                <p>BUDGET : 500€/prsn</p>
-
-                <button>Voir plus</button>
+        <div class="ParametreRecherche">
+            <div>
+                <p>Ville de départ :</p>
+                <input type="text" placeholder="Lyon, paris ...">
             </div>
-            <div class="blocHistorique">
-                <div class= "blocHistoriqueTitre">
-                    <H3>TORONTO</H3>
-                    <p>17 Janvier - 25 Janvier</p>
+            <div class="Regroup">
+                <P>Voyageurs</P>
+                <div class="BoutonVoyageur">
+                    <button id="increase">^</button>
+                    <p id="counter">1</p>
+                    <button id="decrease">v</button>
                 </div>
-                <p>Ville de départ : Paris</p>
-                <p>Voyageur : 3</p>
-                <p>Activités : non</p>
-                <p>BUDGET : 500€/prsn</p>
-
-                <button>Voir plus</button>
             </div>
-            <div class="blocHistorique">
-                <div class= "blocHistoriqueTitre">
-                    <H3>TORONTO</H3>
-                    <p>17 Janvier - 25 Janvier</p>
+            <div>
+                <P>Budget par personne</P>
+                <div class="Regroup">
+                    <input type="number" placeholder="0">
+                    <p>€</p>
                 </div>
-                <p>Ville de départ : Paris</p>
-                <p>Voyageur : 3</p>
-                <p>Activités : non</p>
-                <p>BUDGET : 500€/prsn</p>
-
-                <button>Voir plus</button>
             </div>
-            <img src="images/ChevronCompactRight.png">
+            <a href="/html/result.html"><button id="RECHERCHER">RECHERCHER</button></a>
         </div>
-    </body>
+    </div>
+    <!-- PARTIE Historique -->
+    <H2 id="HistoriqueTitre">ANCIENNES RECHERCHES</H2>
+    <div class="Historique">
+        <img src="images/ChevronCompactLeft.png">
+        <div class="blocHistorique">
+            <div class="blocHistoriqueTitre">
+                <H3>TORONTO</H3>
+                <p>17 Janvier - 25 Janvier</p>
+            </div>
+            <p>Ville de départ : Paris</p>
+            <p>Voyageur : 3</p>
+            <p>Activités : non</p>
+            <p>BUDGET : 500€/prsn</p>
+
+            <button>Voir plus</button>
+        </div>
+        <div class="blocHistorique">
+            <div class="blocHistoriqueTitre">
+                <H3>TORONTO</H3>
+                <p>17 Janvier - 25 Janvier</p>
+            </div>
+            <p>Ville de départ : Paris</p>
+            <p>Voyageur : 3</p>
+            <p>Activités : non</p>
+            <p>BUDGET : 500€/prsn</p>
+
+            <button>Voir plus</button>
+        </div>
+        <div class="blocHistorique">
+            <div class="blocHistoriqueTitre">
+                <H3>TORONTO</H3>
+                <p>17 Janvier - 25 Janvier</p>
+            </div>
+            <p>Ville de départ : Paris</p>
+            <p>Voyageur : 3</p>
+            <p>Activités : non</p>
+            <p>BUDGET : 500€/prsn</p>
+
+            <button>Voir plus</button>
+        </div>
+        <img src="images/ChevronCompactRight.png">
+    </div>
+</body>
+
+<footer>
+    <p>© 2024 - secret explorer</p>
+    <img src="../images/logo_rogne.png" class="logo">
+    <p>luc, lucas, valentin, pierre, manon</p>
+</footer>
+
+<script src="/js/index.js"></script>
+
 </html>
