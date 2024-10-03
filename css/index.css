@@ -1,0 +1,117 @@
+/* Body à supprimer Après intégration d'autre ficher CSS*/
+body {
+    margin: 0;
+    background-color: #FFF6D6;
+    font-family: 'Yeseva One' sans-serif;
+}
+
+#RechercheTitre {
+    margin-left: 12.5%
+}
+
+.Recherche {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.SectDate {
+    display: flex; 
+    flex-direction: row;
+    
+    border-right: solid 2px ;
+    padding-right: 5%;
+}
+
+.test {
+    text-align: center;
+    margin:auto;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    padding-top: 20px;
+}
+
+.Calendrier {
+    background-color: #FB80284F;
+    padding: 5px;
+    padding-top:2px;
+    border-radius: 10px;
+    min-width: 250px; 
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.Calendrier input{ 
+    margin: auto;
+}
+
+
+.Regroup {
+    display:flex;   
+
+    margin:5px;
+}
+
+.Regroup input {
+    height: 20px;
+    margin: auto;
+    margin-left: 0; 
+    margin-right: 10px; 
+}
+
+
+.ParametreRecherche {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: -webkit-fill-available;
+}
+
+/* Pour le cadrer vers la gauche */
+.ParametreRecherche div:first-child input {
+    margin-right: 100%
+}
+
+.ParametreRecherche input {
+    border: none;
+    border-radius: 5px; 
+    padding:  5px;
+    background-color: #FB80284F; 
+}
+
+.BoutonVoyageur {
+    display: flex;  
+    background-color: #FB80284F;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 30px;    
+    margin-left: 20px; 
+}
+
+.BoutonVoyageur p {
+    margin: 0px;
+    text-align: center;
+}
+
+.BoutonVoyageur button {
+    border: none;
+    background-color: #ffffff00;
+}
+
+#RECHERCHER {
+
+    background-color: #FB80284F;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:5px;
+    margin-top: 20px;
+    margin-left: auto;
+    width: 140px
+}
